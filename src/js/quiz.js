@@ -276,7 +276,7 @@ const showResult = () => {
   const selectedAgent =
     possibleAgents[Math.floor(Math.random() * possibleAgents.length)];
 
-  const roleText = {
+  const rolText = {
     duelist:
       'Eres un Duelista, te gusta la acción rápida y estar en el frente del combate.',
     sentinel:
@@ -288,7 +288,7 @@ const showResult = () => {
   };
 
   textResultTopElement.textContent = `Rol: ${topRole} - Agente: ${selectedAgent.name}`;
-  textResultElement.textContent = roleText[topRole];
+  textResultElement.textContent = rolText[topRole];
   roleImage.src = `/../assets/images/${topRole}.svg`;
   agentImage.src = selectedAgent.image;
 };
