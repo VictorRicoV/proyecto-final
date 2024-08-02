@@ -5,6 +5,13 @@
     <!-- PON UN FAVICON!!! -->
     <link rel="icon" type="image/svg+xml" href="" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Oswald&display=swap"
+      rel="stylesheet"
+    />
+
     <link rel="stylesheet" href="css/styles.css" />
     <!-- CAMBIA EL TITLE!!! -->
     <title>Vite Template</title>
@@ -12,29 +19,19 @@
   <body>
     <main class="main" id="main">
       <div id="quiz-container" class="quiz-container">
-        <h2 id="question" class="question"></h2>
+        <h2 id="question" class="title title--question"></h2>
         <div id="options" class="options"></div>
       </div>
       <div id="result" class="result hidden">
         <span id="text-result-top" class="text-result-top"></span>
         <p id="text-result" class="text-result"></p>
         <div id="images" class="images">
-          <img
-            id="role-image"
-            class="role-image"
-            src="../assets/images/sentinel.svg"
-            alt=""
-          />
-          <img
-            id="agent-image"
-            class="agent-image"
-            src="../assets/images/cypher.png"
-            alt=""
-          />
+          <img id="role-image" class="role-image" src="" alt="" />
+          <img id="agent-image" class="agent-image" src="" alt="" />
         </div>
       </div>
+      <img src="../assets/images/logo.png" alt="logo de valorant" />
     </main>
-    <img src="../assets/images/logo.png" alt="logo de valorant" />
-    <script type="module" src="../js/index.js"></script>
+    <script type="module" src="../js/quiz.js"></script>
   </body>
 </html>
