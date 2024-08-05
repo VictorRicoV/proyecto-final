@@ -1,3 +1,4 @@
+@use '../mixins/hover.scss' as *;
 .button {
   display: flex;
   width: 100%;
@@ -6,4 +7,10 @@
   gap: 1rem;
   border: 2px solid var(--primary-color);
   padding: 8px 0;
+  font-size: 28px;
+
+  @include hover {
+    background-color: var(--primary-color);
+    color: var(--text-dark);
+  }
 }

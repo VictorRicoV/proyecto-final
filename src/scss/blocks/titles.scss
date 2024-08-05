@@ -1,4 +1,11 @@
 .title {
   margin: 0;
   font-size: 2rem;
+  text-align: center;
+  &--home {
+    letter-spacing: 1px;
+  }
+  &--question {
+    padding: 120px 0 32px;
+  }
 }

@@ -1,9 +1,35 @@
+@use '../mixins/hover.scss' as *;
+
 input[type='radio'] {
   display: none;
 }
 
 .quiz-container {
   height: 652px;
+}
+
+.quiz-option {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 12px 8px;
+  border: 1px solid var(--primary-color);
+  cursor: pointer;
+  &-label {
+    width: 100%;
+    font-size: 20px;
+    cursor: pointer;
+  }
+  @include hover {
+    background-color: var(--primary-color);
+    color: var(--text-dark);
+  }
+}
+
+.options {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
 }
 
 .hidden {

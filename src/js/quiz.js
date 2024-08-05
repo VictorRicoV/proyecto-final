@@ -175,34 +175,38 @@ let score = {
 
 const agents = {
   duelist: [
-    { name: 'Jett', minScore: 5, image: '../assets/images/jett.png' },
-    { name: 'Phoenix', minScore: 3, image: '../assets/images/phoenix.png' },
-    { name: 'Reyna', minScore: 3, image: '../assets/images/reyna.png' },
-    { name: 'Raze', minScore: 2, image: '../assets/images/raze.png' },
-    { name: 'Neon', minScore: 1, image: '../assets/images/neon.png' },
-    { name: 'Yoru', minScore: 1, image: '../assets/images/yoru.png' }
+    { name: 'Jett', minScore: 5, image: '/../assets/images/jett.png' },
+    { name: 'Phoenix', minScore: 3, image: '/../assets/images/phoenix.png' },
+    { name: 'Reyna', minScore: 3, image: '/../assets/images/reyna.png' },
+    { name: 'Raze', minScore: 2, image: '/../assets/images/raze.png' },
+    { name: 'Neon', minScore: 1, image: '/../assets/images/neon.png' },
+    { name: 'Yoru', minScore: 1, image: '/../assets/images/yoru.png' }
   ],
   sentinel: [
-    { name: 'Sage', minScore: 5, image: '../assets/images/sage.png' },
-    { name: 'Cypher', minScore: 4, image: '../assets/images/cypher.png' },
-    { name: 'Killjoy', minScore: 3, image: '../assets/images/killjoy.png' },
-    { name: 'Chamber', minScore: 2, image: '../assets/images/chamber.png' },
-    { name: 'Deadlock', minScore: 1, image: '../assets/images/deadlock.png' }
+    { name: 'Sage', minScore: 5, image: '/../assets/images/sage.png' },
+    { name: 'Cypher', minScore: 4, image: '/../assets/images/cypher.png' },
+    { name: 'Killjoy', minScore: 3, image: '/../assets/images/killjoy.png' },
+    { name: 'Chamber', minScore: 2, image: '/../assets/images/chamber.png' },
+    { name: 'Deadlock', minScore: 1, image: '/../assets/images/deadlock.png' }
   ],
   controller: [
-    { name: 'Brimstone', minScore: 5, image: '../assets/images/brimstone.png' },
-    { name: 'Omen', minScore: 4, image: '../assets/images/omen.png' },
-    { name: 'Viper', minScore: 3, image: '../assets/images/viper.png' },
-    { name: 'Astra', minScore: 2, image: '../assets/images/astra.png' },
-    { name: 'Harbor', minScore: 1, image: '../assets/images/harbor.png' }
+    {
+      name: 'Brimstone',
+      minScore: 5,
+      image: '/../assets/images/brimstone.png'
+    },
+    { name: 'Omen', minScore: 4, image: '/../assets/images/omen.png' },
+    { name: 'Viper', minScore: 3, image: '/../assets/images/viper.png' },
+    { name: 'Astra', minScore: 2, image: '/../assets/images/astra.png' },
+    { name: 'Harbor', minScore: 1, image: '/../assets/images/harbor.png' }
   ],
   initiator: [
-    { name: 'Sova', minScore: 5, image: '../assets/images/sova.png' },
-    { name: 'Breach', minScore: 4, image: '../assets/images/breach.png' },
-    { name: 'Skye', minScore: 3, image: '../assets/images/skye.png' },
-    { name: 'KAY/O', minScore: 2, image: '../assets/images/kayo.png' },
-    { name: 'Gekko', minScore: 1, image: '../assets/images/gekko.png' },
-    { name: 'Fade', minScore: 1, image: '../assets/images/fade.png' }
+    { name: 'Sova', minScore: 5, image: '/../assets/images/sova.png' },
+    { name: 'Breach', minScore: 4, image: '/../assets/images/breach.png' },
+    { name: 'Skye', minScore: 3, image: '/../assets/images/skye.png' },
+    { name: 'KAY/O', minScore: 2, image: '/../assets/images/kayo.png' },
+    { name: 'Gekko', minScore: 1, image: '/../assets/images/gekko.png' },
+    { name: 'Fade', minScore: 1, image: '/../assets/images/fade.png' }
   ]
 };
 
@@ -278,13 +282,13 @@ const showResult = () => {
 
   const rolText = {
     duelist:
-      'Eres un Duelista, te gusta la acción rápida y estar en el frente del combate.',
+      'Eres un Duelista, te encanta estar en el frente del combate, abriendo el camino para tu equipo con eliminaciones rápidas y decisivas. Tu audacia y agilidad te permiten enfrentarte cara a cara con el enemigo, rompiendo sus defensas y creando oportunidades de ataque. Siempre listo para la acción, disfrutas liderando la carga y siendo el primero en el fragor de la batalla.',
     sentinel:
-      'Eres un Centinela, te especializas en apoyar y proteger a tu equipo desde la retaguardia.',
+      'Eres un Centinela, el protector del equipo. Te especializas en mantener la seguridad y el control, utilizando tus habilidades para defender áreas clave y apoyar a tus compañeros. Tu enfoque estratégico te permite prever los movimientos enemigos y asegurar la estabilidad del equipo, curando, reviviendo o estableciendo defensas que detienen al enemigo en seco.',
     controller:
-      'Eres un Controlador, te enfocas en dominar el mapa y controlar el campo de batalla.',
+      'Eres un Controlador, maestro del ritmo del juego. Te centras en dominar el campo de batalla, bloqueando la visión enemiga y guiando a tu equipo con tácticas precisas. Tus habilidades alteran el flujo de la partida, desorientando al enemigo y forzándolo a tomar decisiones apresuradas. Como estratega, controlas la situación para maximizar la ventaja de tu equipo.',
     initiator:
-      'Eres un Iniciador, preparas el camino para que tu equipo entre en acción.'
+      'Eres un Iniciador, el que allana el camino para tu equipo. Tu misión es desestabilizar al enemigo y proporcionar la información necesaria para que tus compañeros actúen con ventaja. Con tus habilidades, creas caos entre las filas enemigas, abriendo oportunidades para un asalto coordinado. Eres el puente entre la estrategia y la acción, asegurando que tu equipo siempre tenga la iniciativa.'
   };
 
   textResultTopElement.textContent = `Rol: ${topRole} - Agente: ${selectedAgent.name}`;

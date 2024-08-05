@@ -1,7 +1,15 @@
+@use '../mixins/responsive.scss' as *;
 html {
   scroll-behavior: smooth;
 }
 body {
   background-color: #254159;
+  background-image: url(/../assets/images/background-img-mobile.jpg);
+  background-repeat: no-repeat;
   font-family: 'Oswald', sans-serif;
+  color: var(--text-light);
+
+  @include responsive(laptop) {
+    background-image: url(/../assets/images/background-img-desktop.jpg);
+  }
 }
