@@ -1,7 +1,12 @@
+@use '../mixins/responsive.scss' as *;
 .images {
   position: relative;
   width: 220px;
   height: 300px;
+  @include responsive(laptop) {
+    width: 444px;
+    height: 600px;
+  }
 }
 
 .role-image {
@@ -9,13 +14,22 @@
   left: 60px;
   width: 110px;
   height: 110px;
+  @include responsive(laptop) {
+    left: 0;
+    width: 220px;
+    height: 220px;
+  }
 }
 
 .agent-image {
   position: absolute;
   left: 80px;
-
   height: 300px;
   width: 196px;
   z-index: 10;
+  @include responsive(laptop) {
+    left: 40px;
+    width: 392px;
+    height: 600px;
+  }
 }

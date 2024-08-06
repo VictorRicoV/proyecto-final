@@ -1,11 +1,14 @@
 @use '../mixins/hover.scss' as *;
-
+@use '../mixins/responsive.scss' as *;
 input[type='radio'] {
   display: none;
 }
 
 .quiz-container {
-  height: 652px;
+  @include responsive(laptop) {
+    width: 600px;
+    height: 475px;
+  }
 }
 
 .quiz-option {
@@ -19,6 +22,9 @@ input[type='radio'] {
     width: 100%;
     font-size: 20px;
     cursor: pointer;
+    @include responsive(laptop) {
+      font-size: 24px;
+    }
   }
   @include hover {
     background-color: var(--primary-color);

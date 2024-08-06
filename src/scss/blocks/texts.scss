@@ -1,21 +1,36 @@
+@use '../mixins/responsive.scss' as *;
 .text-inicio {
   display: flex;
   flex-direction: column;
+  align-items: center;
   gap: 3.5rem;
   padding-top: 194px;
+  @include responsive(laptop) {
+    padding-top: 240px;
+  }
 }
 
 .text-result {
   margin: 0;
   letter-spacing: 0.8px;
+  @include responsive(laptop) {
+    font-size: 24px;
+  }
 }
 
 .text-result-top {
   display: inline-block;
   margin-bottom: 16px;
+  @include responsive(laptop) {
+    font-size: 32px;
+  }
 }
 
 .text-result-container {
   text-align: center;
   padding: 80px 0 40px;
+  @include responsive(laptop) {
+    width: 600px;
+    padding: 0;
+  }
 }

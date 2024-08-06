@@ -218,6 +218,7 @@ const loadQuestion = index => {
   questionData.options.forEach((option, i) => {
     const diamondImage = document.createElement('img');
     diamondImage.src = '/../assets/images/diamond.svg';
+    diamondImage.classList.add('diamond-img');
     const optionContainer = document.createElement('div');
     optionContainer.classList.add('quiz-option');
     optionContainer.append(diamondImage);

@@ -1,4 +1,5 @@
 @use '../mixins/hover.scss' as *;
+@use '../mixins/responsive.scss' as *;
 .button {
   display: flex;
   width: 100%;
@@ -7,10 +8,15 @@
   gap: 1rem;
   border: 2px solid var(--primary-color);
   padding: 8px 0;
-  font-size: 28px;
+  font-size: 1.75rem;
 
   @include hover {
     background-color: var(--primary-color);
     color: var(--text-dark);
+  }
+  @include responsive(laptop) {
+    width: 194px;
+    height: 73px;
+    font-size: 2rem;
   }
 }
