@@ -1,6 +1,6 @@
 # Quiz de Valorant
 
-![Imagen del proyecto](https://github.com/eduardofierropro/Portafolio-y-CV/blob/main/IMAGEN-DEL-PROYECTO.jpg?raw=true)
+![Imagen del proyecto](https://raw.githubusercontent.com/VictorRicoV/proyecto-final/main/src/assets/design-valorant/Design-desktop.png)
 
 ## Ejemplo en vivo
 
@@ -32,9 +32,9 @@ Estas habilidades me han permitido desarrollar un quiz interactivo que determina
 
 Si quieres echar un vistazo al proyecto, te recomiendo:
 
-![Captura del proyecto](https://github.com/eduardofierropro/Portafolio-y-CV/blob/main/CAPTURA-DEL-PROYECTO.jpg?raw=true)
-![Captura del proyecto](https://github.com/eduardofierropro/Portafolio-y-CV/blob/main/CAPTURA-DEL-PROYECTO.jpg?raw=true)
-![Captura del proyecto](https://github.com/eduardofierropro/Portafolio-y-CV/blob/main/CAPTURA-DEL-PROYECTO.jpg?raw=true)
+![Captura del proyecto](https://raw.githubusercontent.com/VictorRicoV/proyecto-final/main/src/assets/design-valorant/Design-desktop-hover.png)
+![Captura del proyecto](https://raw.githubusercontent.com/VictorRicoV/proyecto-final/main/src/assets/design-valorant/Design-mobile-result.png)
+![Captura del proyecto](https://github.com/VictorRicoV/proyecto-final/blob/main/src/assets/design-valorant/Design-mobile.png)
 
 ## Victor Rico ✒️
 
