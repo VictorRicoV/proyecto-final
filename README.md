@@ -39,7 +39,7 @@ Si quieres echar un vistazo al proyecto, te recomiendo:
 ## Victor Rico ✒️
 
 - [lessricc@gmail.com](lessricc@gmail.com)
-- [https://www.linkedin.com/in/victor-rico-varela]([https://www.linkedin.com/in/victor-rico-varela)
+- [https://www.linkedin.com/in/victor-rico-varela](https://www.linkedin.com/in/victor-rico-varela)
 
 ## Instalación
 
